@@ -65,7 +65,6 @@ class ViewController: UIViewController {
         navigationController?.navigationBar.barTintColor = .clear
         navigationController?.hidesBarsOnTap = false
         
-        print(answerDate.count)
     }
 
     @IBAction func searchButtonPressed(_ sender: UIButton) {
@@ -118,9 +117,6 @@ class ViewController: UIViewController {
         answerDate.removeAll()
         answerExplanation.removeAll()
         answerUrl.removeAll()
-//        answerDate = [String]()
-//        answerExplanation = [String]()
-//        answerUrl = [String]()
         
         userSelectionGetter(selection: monthSelection)
         
@@ -159,12 +155,10 @@ class ViewController: UIViewController {
             if leapYearChecker(year: yearSelection) == true {
                 userStartDate = "\(yearSelection)-\(monthDictionary["February"]!)-01"
                 userEndDate = "\(yearSelection)-\(monthDictionary["February"]!)-29"
-                print("one")
             } else {
                 if leapYearChecker(year: yearSelection) == false {
                 userStartDate = "\(yearSelection)-\(monthDictionary["February"]!)-01"
                 userEndDate = "\(yearSelection)-\(monthDictionary["February"]!)-28"
-                print("two")
                 }
             }
         }
@@ -173,7 +167,6 @@ class ViewController: UIViewController {
                 if i == selection {
                     userStartDate = "\(yearSelection)-\(monthDictionary[i]!)-01"
                     userEndDate = "\(yearSelection)-\(monthDictionary[i]!)-30"
-                    print("three")
                     
                 }
             }
@@ -181,7 +174,6 @@ class ViewController: UIViewController {
                 if i == selection {
                     userStartDate = "\(yearSelection)-\(monthDictionary[i]!)-01"
                     userEndDate = "\(yearSelection)-\(monthDictionary[i]!)-31"
-                    print("four")
                 }
             }
         }
@@ -216,10 +208,8 @@ extension ViewController: UIPickerViewDelegate, UIPickerViewDataSource {
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         if pickerView.tag == 0 {
             monthSelection = monthArray[row]
-            print(monthArray[row])
         } else {
             yearSelection = yearArray[row]
-            print(yearArray[row])
         }
     }
     

@@ -28,3 +28,6 @@ Final Thoughts
 This applcation was the perfect amount of challenge and peace. Overall, by building this applicaiton. You get the value of working and creating. You are allowing yourself to create a foundation for futher growth. 
 Down the line you may choose to revisit this applcation and build a more extensive User Interface or take a deeper dive into the NASA APOD API. 
 Just know that when you do, you were only able to do so, becuase the building blocks you learned today. 
+
+<img width="476" alt="NAscreenshotOne" src="https://user-images.githubusercontent.com/118784546/214165086-80a0ec92-a696-4b80-9317-34a86b119e1f.png">
+<img width="476" alt="NAscreeshotTwo" src="https://user-images.githubusercontent.com/118784546/214166332-eb98688b-1f66-4b25-8b97-f726c063753a.png"><img width="476" alt="NAscreenshotThree" src="https://user-images.githubusercontent.com/118784546/214166378-88502273-928a-4e42-8cf0-5bc28f511105.png">

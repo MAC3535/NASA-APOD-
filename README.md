@@ -5,7 +5,7 @@ Description
 
 An application created using NASA Astronomy Picture of the Day API. 
 
-Within the application you can select a month and a year you would like to search. A request is then sent to NASA Api for the selected month and year. Once that data is collected, a collection view will be populated with pictures showing each day of the selected month and year.
+Within the application you can select a month and a year you would like to search. A request is then sent to the NASA API for the selected month and year. Once that data is collected, a collection view will be populated with pictures showing each day of the selected month and year.
 You may then choose a picture out of the collection to look into further. 
 A new screen will then be shown with the Year, month and date in the title. The selected photo will also be shown with a corresponding message written by NASA marknig the significance of the photograph. 
 
